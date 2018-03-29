@@ -1,0 +1,12 @@
+body {
+  background-color: #d896ff; }
+
+.abilities {
+  text-transform: capitalize; }
+
+.name {
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

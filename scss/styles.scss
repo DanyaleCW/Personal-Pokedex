@@ -1,0 +1,21 @@
+
+
+
+$primary-color: #d896ff;
+
+
+body {
+	background-color: $primary-color;
+}
+
+
+.abilities {
+	text-transform: capitalize;
+}
+
+.name {
+	font-size: 50px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
