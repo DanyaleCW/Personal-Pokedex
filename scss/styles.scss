@@ -2,12 +2,32 @@
 
 
 $primary-color: #d896ff;
+$footer-color: #800080;
 
 
 body {
 	background-color: $primary-color;
 }
 
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+
+img {
+	border-radius: 50%;
+}
+
+ h1 {
+ 	text-align: center;
+ }
+
+ .container {
+ 	padding: 50px;
+ 	margin: 10px;
+ }
 
 .abilities {
 	text-transform: capitalize;
@@ -19,3 +39,11 @@ body {
 	text-align: center;
 }
 
+footer {
+	text: $footer-color;
+}
+
+h6 {
+	text-align: center;
+	font-size: 5px;
+}

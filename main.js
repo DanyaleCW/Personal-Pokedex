@@ -24,6 +24,17 @@ add(Pokemon) {
 	this.pokemon.push(Pokemon)
 }
 
+get(name) {
+	for (let j = 0; j < this.pokemon.length; j++) {
+		if(name == this.pokemon[j].name){
+			return(this.pokemon[j]);
+
+		}
+		
+
+}
+
+}
 
 
 displayAll() {
